@@ -1,0 +1,30 @@
+@mixin reset {
+  width:100%;
+  height:100%;
+  margin:0;
+  padding:0;
+}
+@mixin high{
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*{  
+  @include high();
+}
+html,body{
+  @include reset();
+}
+.clearfix:before,
+.clearfix:after {
+    content: " "; 
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}

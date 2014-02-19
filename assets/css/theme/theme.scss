@@ -1,0 +1,28 @@
+@import 'classes.scss';
+@import 'colors.scss';
+body{
+	font-family: "Gilda Display";
+	color:$c-4;
+}
+@include headers(Mohave,600);
+
+p,
+a{
+	text-shadow:0 -.085em 0 rgba(white,1);
+}
+pre{
+	font-size: .65em;
+	width: 80%;
+	max-width: 920px;
+	margin:auto;
+	border-radius: 4px;
+	background: $c-0;
+	box-shadow:
+		0 -.1em .1em rgba(black,.1),
+		0 .1em .1em rgba(white,1), 
+		inset 0 0 .1em rgba(0,0,0,.4);
+
+		code{
+		text-shadow:0 -1px 0 rgba(white,.6);
+		}
+}

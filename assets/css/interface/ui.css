@@ -1,0 +1,28 @@
+.button--flat {
+  text-shadow: 0 0.08em 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 1em; }
+  .button--flat a {
+    display: inline-block;
+    margin: auto 0.5em;
+    padding: 0.6em 1.2em;
+    border: 0.1em solid;
+    border-radius: 45px;
+    color: inherit;
+    text-decoration: none;
+    box-shadow: 0 0.08em 0 rgba(0, 0, 0, 0.1); }
+  .button--flat.button--green a {
+    border-color: #2ecc71;
+    color: #2ecc71; }
+    .button--flat.button--green a:hover {
+      background: #2ecc71;
+      color: #fff; }
+  .button--flat.button--red a {
+    border-color: #e74c3c;
+    color: #e74c3c; }
+    .button--flat.button--red a:hover {
+      background: #e74c3c;
+      color: #fff; }
+  .button--flat.button--light:hover a {
+    color: #fff; }
+  .button--flat:hover a {
+    text-shadow: 0 0 0 transparent; }

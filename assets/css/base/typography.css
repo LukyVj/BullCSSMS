@@ -1,0 +1,80 @@
+@import url(http://fonts.googleapis.com/css?family=Gilda+Display);
+@font-face {
+  font-family: 'Mohave';
+  src: url("../fonts/Mohave/Mohave.eot?") format("eot"), url("../fonts/Mohave/Mohave.woff") format("woff"), url("../fonts/Mohave/Mohave.svg#Mohave") format("svg"), url("../fonts/fonts/Mohave/Mohave.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Mohave-Bold';
+  src: url("../fonts/Mohave-Bold/Mohave-Bold.eot?") format("eot"), url("../fonts/Mohave-Bold/Mohave-Bold.woff") format("woff"), url("../fonts/Mohave-Bold/Mohave-Bold.svg#Mohave-Bold") format("svg"), url("../fonts/fonts/Mohave-Bold/Mohave-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Mohave';
+  src: url("../fonts/Mohave-SemiBold/Mohave-SemiBold.eot?") format("eot"), url("../fonts/Mohave-SemiBold/Mohave-SemiBold.woff") format("woff"), url("../fonts/Mohave-SemiBold/Mohave-SemiBold.svg#Mohave-SemiBold") format("svg"), url("../fonts/fonts/Mohave-SemiBold/Mohave-SemiBold.ttf") format("truetype"); }
+
+* {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
+  font-weight: 300; }
+
+h1 {
+  font-size: 2em;
+  /* 2*16 = 32 */ }
+
+h2 {
+  font-size: 1.5em;
+  /* 1.5*16 = 24 */ }
+
+h3 {
+  font-size: 1.17em;
+  /* 1.17*16 = 18.72 */ }
+
+h4 {
+  font-size: 1em;
+  /* 1*16 = 16 */ }
+
+h5 {
+  font-size: 0.83em;
+  /* 0.83*16 = 13.28 */ }
+
+h6 {
+  font-size: 0.75em;
+  /* 0.75*16 = 12 */ }
+
+p {
+  line-height: 1.5;
+  margin: 0 0 1em;
+  word-break: break-all;
+  /* Non standard for webkit */
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto; }
+
+a,
+a:visited {
+  text-decoration: underline; }
+
+a:hover {
+  text-decoration: none; }
+
+strong {
+  font-weight: bold; }
+
+em {
+  font-style: italic; }
+
+code,
+pre {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+blockquote {
+  font-style: italic; }
+
+blockquote:before {
+  content: "\201C";
+  display: inline-block;
+  padding-right: .4em; }

@@ -1,0 +1,12 @@
+@import url(http://fonts.googleapis.com/css?family=Gilda+Display);
+@font-face {
+  font-family: 'Mohave';
+  src: url("../fonts/Mohave/Mohave.eot?") format("eot"), url("../fonts/Mohave/Mohave.woff") format("woff"), url("../fonts/Mohave/Mohave.svg#Mohave") format("svg"), url("../fonts/fonts/Mohave/Mohave.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Mohave-Bold';
+  src: url("../fonts/Mohave-Bold/Mohave-Bold.eot?") format("eot"), url("../fonts/Mohave-Bold/Mohave-Bold.woff") format("woff"), url("../fonts/Mohave-Bold/Mohave-Bold.svg#Mohave-Bold") format("svg"), url("../fonts/fonts/Mohave-Bold/Mohave-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Mohave';
+  src: url("../fonts/Mohave-SemiBold/Mohave-SemiBold.eot?") format("eot"), url("../fonts/Mohave-SemiBold/Mohave-SemiBold.woff") format("woff"), url("../fonts/Mohave-SemiBold/Mohave-SemiBold.svg#Mohave-SemiBold") format("svg"), url("../fonts/fonts/Mohave-SemiBold/Mohave-SemiBold.ttf") format("truetype"); }

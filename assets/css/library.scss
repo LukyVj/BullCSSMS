@@ -1,0 +1,21 @@
+
+// BULLCSSMS
+// Here is the main style.css of your project, here you will import all css component of your website. 
+// You can easily add / remove component blocks from here. 
+
+// Import the base of your style, the base will be composed by a normalize.css and a root.css
+@import 'base/base.scss';
+
+// Import the layout style, which will define your blocks, the sizes ect, without this file your website will not have a layout.
+@import 'layout/layout.scss';
+@import 'layout/responsive_layout.scss';
+
+// Import the interface file, that will call all visual components of your website (buttons, forms, ect, all ui elements in fact).
+@import 'interface/ui.scss'; 
+
+// If you have to use CSS hacks, you can load them here
+@import 'base/hacks.scss';
+
+// An finally, your own theme, with your colors, fonts and personal changes
+@import 'theme/theme.scss';
+     
